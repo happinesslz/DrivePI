@@ -1,0 +1,15 @@
+**__pycache__**
+**build**
+**egg-info**
+**dist**
+*.pyc
+venv/
+*.idea/
+*.so
+*.pth
+*.pkl
+*.zip
+*.bin
+.DS_Store
+output
+version.py
