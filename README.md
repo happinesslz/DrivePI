@@ -40,7 +40,8 @@
 * **Strong Performance**. Despite utilizing only a compact 0.5B parameter MLLM backbone (Qwen2.5), DrivePI outperforms existing VA models in 3D occupancy and occupancy flow while maintaining comparable interactive capabilities with existing VLA frameworks. 💪
 
 ## News
-* **2025.12.15**: DrivePI paper released. 🔥
+* **2025.12.15**: [DrivePI](http://arxiv.org/abs/2512.12799) paper released. 🔥
+* **2025.12.15**: [GenieDrive](https://github.com/Huster-YZY/GenieDrive) (Physics-Aware Driving World Model) paper released. 🔥
 * **2025.11.04**: Our previous work [UniLION](https://github.com/happinesslz/UniLION) has been released. Check out the [codebase](https://github.com/happinesslz/UniLION) for unified autonomous driving model with Linear Group RNNs. 🚀
 * **2024.09.26**: Our work [LION](https://github.com/happinesslz/LION) has been accepted by NeurIPS 2024. Visit the [codebase](https://github.com/happinesslz/LION) for Linear Group RNN for 3D Object Detection. 🚀
 
@@ -95,7 +96,7 @@ Remarkably, with only a 0.5B Qwen2.5 model as MLLM backbone, DrivePI as a single
 
 ### 3D Occupancy and Occupancy Flow on OpenOcc
 
-| Method | VLM-based | OccScore | RayIoU<br>(3D Occ.) | mAVE<br>(Occ. Flow) | RayIoU$_{\mathrm{1m}}$ | RayIoU$_{\mathrm{2m}}$ | RayIoU$_{\mathrm{4m}}$ |
+| Method | VLM-based | OccScore | RayIoU<br>(3D Occ.) | mAVE<br>(Occ. Flow) | RayIoU (1m) | RayIoU (2m) | RayIoU (4m) |
 |--------|:---------:|:--------:|:-------------------:|:-------------------:|:----------------------:|:----------------------:|:----------------------:|
 | OccNeRF | | 28.5 | 31.7 | -- | 16.6 | 29.3 | 49.2 |
 | RenderOcc | | 33.0 | 36.7 | -- | 20.3 | 32.7 | 49.9 |
@@ -110,7 +111,7 @@ Remarkably, with only a 0.5B Qwen2.5 model as MLLM backbone, DrivePI as a single
 
 ### 3D Occupancy on Occ3D-nuScenes
 
-| Method | VLM-based | RayIoU | RayIoU$_{\mathrm{1m}}$ | RayIoU$_{\mathrm{2m}}$ | RayIoU$_{\mathrm{4m}}$ |
+| Method | VLM-based | RayIoU | RayIoU (1m) | RayIoU (2m) | RayIoU (4m) |
 |--------|:---------:|:------:|:----------------------:|:----------------------:|:----------------------:|
 | RenderOcc | | 19.5 | 13.4 | 19.6 | 25.5 |
 | SimpleOcc | | 22.5 | 17.0 | 22.7 | 27.9 |
