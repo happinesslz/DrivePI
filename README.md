@@ -63,11 +63,11 @@ In end-to-end autonomous driving systems, two main approaches have emerged:
 </ul>
 
 DrivePI bridges this gap by combining the strengths of both approaches, serving as a unified Vision-Language-Action framework that is also compatible with vision-action models. Our method jointly performs spatial understanding, 3D perception (i.e., 3D occupancy), prediction (i.e., occupancy flow), and planning (i.e., action outputs) in parallel through end-to-end optimization. To obtain both precise geometric information and rich visual appearance, our approach integrates point clouds, multi-view images, and language instructions within a unified MLLM architecture.
+
+<div align="center">
+<img src="images/intro.png" width="60%">
 </div>
-<div style="flex: 1;">
-<img src="images/intro.png" width="70%">
-</div>
-</div>
+
 
 ## 📊 Data Engine
 
