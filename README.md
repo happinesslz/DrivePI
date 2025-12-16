@@ -1,6 +1,6 @@
 <div align="center">
 
-### DrivePI: Spatial-aware 4D MLLM for Unified Autonomous Driving Understanding, Perception, Prediction and Planning
+### [DrivePI: Spatial-aware 4D MLLM for Unified Autonomous Driving Understanding, Perception, Prediction and Planning](http://arxiv.org/abs/2512.12799)
 
 [Zhe Liu](https://github.com/happinesslz)<sup>1</sup>,
 [Runhui Huang](https://scholar.google.com/citations?user=B5zcj4wAAAAJ)<sup>1</sup>,
